@@ -1,5 +1,5 @@
 body {
-  overflow: scroll;
+  /* overflow: scroll; */
   overflow: hidden visible;
   background-color: skyblue;
   /* background: linear-gradient(45deg, #FE089B, #14EFFF); */
@@ -396,6 +396,27 @@ header .header-wrapper .text {
   top: 130px;
 }
 
+@media(max-width: 499px) {
+  header video {
+    width: 375px;
+    height: 300px;
+  }
+
+  header .text {
+    margin-left: -40px;
+  }
+
+  .main2 video {
+    display: none;
+  }
+
+  .main2 {
+    padding: 20px 0px;
+    background-color: black;
+    border-radius: 30px;
+  }
+}
+
 @media(min-width: 800px) {
 
 
@@ -548,3 +569,4 @@ header .header-wrapper .text {
   }
 
 }
+
