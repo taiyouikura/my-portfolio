@@ -55,8 +55,8 @@ header video {
 main {
   background-color: skyblue;
   /* background: linear-gradient(45deg, #FE089B, #14EFFF); */
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 75px;
   margin-top :-150px;
 }
 
@@ -396,6 +396,12 @@ header .header-wrapper .text {
   top: 130px;
 }
 
+
+.main4 .none {
+  display: none;
+}
+
+
 @media(max-width: 499px) {
   header video {
     width: 375px;
@@ -414,6 +420,14 @@ header .header-wrapper .text {
     padding: 20px 0px;
     background-color: black;
     border-radius: 30px;
+  }
+
+  .main4 h4 {
+    display: none;
+  }
+
+  .main4 .none {
+    display: block;
   }
 }
 
@@ -569,4 +583,3 @@ header .header-wrapper .text {
   }
 
 }
-
